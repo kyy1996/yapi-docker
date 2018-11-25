@@ -8,7 +8,7 @@ Build
 
 Run
 
-`docker run web-yapi -P 27017:27017 -p 3000:3000 -p 9090:9090 --restart always`
+`docker run -p 27017:27017 -p 3000:3000 -p 9090:9090 --restart always -d web-yapi`
 
 **Caution**: Parameter `-p` is case sensitive
 
